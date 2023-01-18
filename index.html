@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Slide Show/ Image Carousel</title>
+  </head>
+  <body>
+    <div class="slideshow-container">
+      <!-- <h1>Slideshow</h1> -->
+      <div class="mySlides fade">
+        <img
+          src="https://images.unsplash.com/photo-1564410267841-915d8e4d71ea?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bW90aXZhdGlvbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+        />
+        <img
+          src="https://images.unsplash.com/photo-1504507926084-34cf0b939964?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTN8fG1vdGl2YXRpb258ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
+        />
+        <img
+          src="https://images.unsplash.com/photo-1572633424705-d813d2fb5cb4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTEwfHxtb3RpdmF0aW9ufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+        />
+        <img
+          src="https://images.unsplash.com/photo-1655208190058-a06451d19431?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTR8NDAyNTA0fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+        />
+        <img
+          src="https://images.unsplash.com/photo-1483058712412-4245e9b90334?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTU2fHxtb3RpdmF0aW9ufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+        />
+        <img
+          src="https://images.unsplash.com/photo-1556711240-9d578614d08e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTB8fG1vdGl2YXRpb24lMjBnZXQlMjBzaGl0JTIwZG9uZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+        />
+        <img
+          src="https://images.unsplash.com/photo-1630476387426-52c6e0b14e50?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8NDN8NDAyNTA0fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+        /> 
+      </div>
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(+1)">&#10095;</a>
+      <br />
+      <div class="dots" style="text-align: center;">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span> 
+        <span class="dot" onclick="currentSlide(5)"></span>
+        <span class="dot" onclick="currentSlide(6)"></span>
+        <span class="dot" onclick="currentSlide(7)"></span>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
